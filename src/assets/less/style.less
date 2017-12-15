@@ -1,0 +1,1351 @@
+//pubilc
+html{
+　　-webkit-text-size-adjust:none;
+}
+body{
+    background: #fff;
+}
+.meng{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.meng-box{
+    position: fixed;
+    z-index: 100;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+}
+article{
+    width: 7.5rem;
+    margin: 0 auto;
+}
+.spacing{
+    height: .3rem;
+    background: #eef2f8;
+}
+input::-webkit-input-placeholder{
+    color: #ccc;
+}
+.shadow{
+    box-shadow: 0 .2rem .3rem rgba(0,0,0,.05);
+}
+//注册页面
+.register-bg{
+    background: url(../images/registerbg_02.png) no-repeat;
+    background-size: 100% auto;
+}
+.register{
+    padding: 1rem 0;
+    text-align: center;
+    img{
+        width: 2.74rem;
+        height: 1.46rem;
+    }
+    h1{
+        font-size: .36rem;
+        margin: .6rem 0 .2rem 0;
+    }
+    h5{
+        font-size: .24rem;
+        color: #000;
+        margin-bottom: 1.26rem;
+    }
+    .form{
+        padding: 0 .6rem;
+        li{
+            height: .96rem;
+            margin-bottom: .36rem;
+            border-bottom: .02rem solid #eee;
+            span{
+                display: block;
+                width: 1.46rem;
+                font-size: .3rem;
+                text-align: left;
+            }
+            input{
+                margin: 0;
+                padding: 0;
+                font-size: .28rem;
+                border: none;
+                background: transparent;
+            }
+            input::-webkit-input-placeholder{
+                color: #ccc;
+            }
+            .phone{
+                width: 4.86rem;
+            }
+            .check-num{
+                width: 3rem;
+            }
+            .get-check{
+                margin-left: .5rem;
+                width: 1.3rem;
+                height: .46rem;
+                line-height: .3rem;
+                font-size: .24rem;
+                color: #fff;
+                background: #62b84f;
+                border: none;
+            }
+        }
+    }
+    .sub{
+        margin: .64rem auto;
+        width: 6.3rem;
+        height: .8rem;
+        font-size: .26rem;
+        color: #fff;
+        border: none;
+        border-radius: .4rem;
+        background: #1f4ba4;
+    }
+}
+.reg-success{
+    padding: .5rem 0;
+    text-align: center;
+    img{
+        width: 5.84rem;
+        height: 5.96rem;
+    }
+    h1{
+        font-size: .38rem;
+        margin: .24rem 0 .5rem 0;
+    }
+    p{
+        font-size: .26rem;
+        line-height: .46rem;
+        margin-bottom: 1.6rem;
+    }
+    .sub{
+        margin: .64rem auto;
+        width: 6.3rem;
+        height: .8rem;
+        font-size: .26rem;
+        color: #fff;
+        border: none;
+        border-radius: .4rem;
+        background: #1f4ba4;
+    }
+}
+.finish-vehicle{
+    width: 5.64rem;
+    height: 5.8rem;
+    border-radius: .3rem;
+    text-align: center;
+    div{
+        background: #1f4ba4;
+        padding: .3rem;
+        border-top-left-radius: .28rem;
+        border-top-right-radius: .28rem;
+        h5{
+            float: right;
+            color: #fff;
+            font-size: .5rem;
+        }
+        h6{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        img{
+            width: 2.44rem;
+            height: 1.32rem;
+            margin-bottom: .4rem;
+        }
+    }
+    p{
+        margin: .6rem 0;
+        font-size: .34rem;
+        color: #000;
+    }
+    a{
+        display: block;
+        margin: 0 auto;
+        width: 4.42rem;
+        height: .8rem;
+        border-radius: .1rem;
+        color: #fff;
+        background: #1f4ba4;
+        line-height: .8rem;
+        font-size: .28rem;
+    }
+}
+//个人中心
+.people{
+    .portrait{
+        background: url(../images/people_02.jpg) no-repeat;
+        background-size: 7.5rem auto;
+        text-align: center;
+        padding-top: .34rem;
+        div{
+            position: relative;
+            width: 1.36rem;
+            margin: 0 auto;
+            .sex{
+                position: absolute;
+                bottom: .24rem;
+                right: 0;
+                width: .26rem;
+                height: .3rem;
+            }
+        }
+        .head-img{
+            width: 1.36rem;
+            height: 1.36rem;
+            border: .04rem solid #fff;
+            border-radius: 50%;
+            box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+        }
+        h3{
+            margin: .16rem 0;
+            font-size: .34rem;
+            font-weight: 300;
+        }
+        p{
+            margin-bottom: .24rem;
+            font-size: .24rem;
+            color: #999;
+            span{
+                font-size: .28rem;
+            }
+        }
+        h5{
+            padding-bottom: .3rem;
+            font-size: .26rem;
+            color: #333;
+        }
+    }
+    ul{
+        padding-left: .24rem;
+        background: #fff;
+        li{
+            padding-right: .24rem;
+            border-bottom: .01rem solid #eef2f8;
+            a{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: .96rem;
+            }
+            img{
+                width: .42rem;
+                height: .46rem;
+            }
+            div{
+                width: 6.1rem;
+                color: #333;
+                font-size: .26rem;
+            }
+            span{
+                color: #999;
+                font-size: .36rem;
+            }
+        }
+        li:last-child{
+            border-bottom: none;
+        }
+    }
+}
+//基本信息
+.basic-info{
+    ul{
+        padding-left: .24rem;
+        background: #fff;
+        margin-top: .3rem;
+        li{
+            height: .96rem;
+            border-bottom: .01rem solid #eef2f8;
+            input{
+                margin: 0;
+                height: .94rem;
+                line-height: .94rem;
+                border: none;
+                padding: 0;
+                font-size: .28rem;
+            }
+            input::-webkit-input-placeholder{
+                color: #ccc;
+            }
+        }
+        li:last-child{
+            border-bottom: none;
+        }
+    }
+    form{
+        margin-top: .3rem;
+        background: #fff;
+        text-align: center;
+        padding: .7rem 0 .46rem 0;
+        input{
+            display: none;
+        }
+        img{
+            width: 2.68rem;
+            height: 1.72rem;
+        }
+        h3{
+            margin-top: .3rem;
+            font-size: .28rem;
+            color: #a1a1a1;
+            font-weight: 300;
+        }
+    }
+    .sub{
+        display: block;
+        margin: 2rem auto .4rem auto;
+        width: 6.3rem;
+        height: .8rem;
+        font-size: .28rem;
+        color: #fff;
+        border: none;
+        border-radius: .4rem;
+        background: #1f4ba4;
+    }
+}
+//车辆信息
+.vehicle-info{
+    padding: .24rem;
+    .shadow{
+        box-shadow: 0 .2rem .3rem rgba(0,0,0,.05);
+    }
+    .vehicle-add{
+        margin-bottom: .6rem;
+        input{
+            margin: 0;
+            width: 5.3rem;
+            height: .8rem;
+            border: none;
+            border-radius: .1rem;
+            font-size: .28rem;
+        }
+        input::-webkit-input-placeholder{
+            color: #ccc;
+        }
+        button{
+            width: 1.4rem;
+            height: .8rem;
+            color: #fff;
+            background: #1f4ba4;
+            border: none;
+            border-radius: .1rem;
+            font-size: .28rem;
+        }
+    }
+    .list{
+        font-size: .24rem;
+        background: #fff;
+        border-radius: .1rem;
+        padding: .3rem;
+        margin-bottom: .3rem;
+        .flex{
+            padding-bottom: .3rem;
+            border-bottom: .03rem solid #eef2f8;
+            margin-bottom: .3rem;
+            h5{
+                color: #000;
+            }
+            span{
+                color: #62b84f;
+                margin-left: .46rem;
+                font-size: .28rem;
+            }
+            .re-upload{
+                display: none;
+            }
+        }
+        form{
+            border-radius: .1rem;
+            border: .01rem dashed #ccc;
+            overflow: hidden;
+            width: 6.4rem;
+            height: 1.8rem;
+            input{
+                display: none;
+            }
+            img{
+                width: 6.38rem;
+                height: 1.78rem;
+            }
+        }
+    }
+}
+//预约须知
+.appoint-info{
+    padding: .32rem;
+    p{
+        line-height: .6rem;
+        font-size: .26rem;
+        text-indent: 2em;
+        color: #000;
+    }
+    a{
+        margin: 4.8rem auto .4rem auto;
+        display: block;
+        width: 6.3rem;
+        height: .8rem;
+        text-align: center;
+        line-height: .8rem;
+        background: #1f4ba4;
+        color: #fff;
+        font-size: .26rem;
+        border: none;
+        border-radius: .4rem;
+    }
+}
+//预约
+.appoint1{
+    padding: .28rem .24rem;
+    .shadow{
+        box-shadow: 0 .2rem .3rem rgba(0,0,0,.05);
+    }
+    .appoint1-head{
+        height: .8rem;
+        padding: 0 .3rem;
+        background: #fff;
+        border-radius: .2rem;
+        img{
+            width: .4rem;
+            height: .4rem;
+        }
+        input{
+            margin: 0;
+            height: .6rem;
+            width: 5.2rem;
+            padding: 0;
+            font-size: .26rem;
+            border: none;
+        }
+        input::-webkit-input-placeholder{
+            color: #ccc;
+        }
+    }
+    .no-appoint{
+        text-align: center;
+        padding-top: 3.6rem;
+        img{
+            width: 2.22rem;
+            height: 2.8rem;
+        }
+        p{
+            font-size: .34rem;
+            color: #c1c4c9;
+            margin: .36rem 0;
+        }
+    }
+}
+.appoint-list{
+    padding-top: .6rem;
+    a{
+        display: block;
+    }
+    ul{
+        background: #fff;
+        border-radius: .2rem;
+        margin-bottom: .3rem;
+        padding: .2rem .3rem;
+        position: relative;
+        li{
+            display: flex;
+            align-items: center;
+            height: .62rem;
+            font-size: .26rem;
+            img{
+                width: .3rem;
+                height: .3rem;
+            }
+            label{
+                display: block;
+                width: .96rem;
+                text-indent: .1rem;
+                color: #333;
+            }
+            span{
+                color: #666;
+            }
+        }
+        .status{
+            position: absolute;
+            right: 0;
+            bottom: .38rem;
+            display: block;
+            width: 1.88rem;
+            height: .5rem;
+        }
+    }
+}
+.guide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/appoint1Meng_02.png) no-repeat;
+    background-size: 100% auto;
+    button{
+        width: 1.2rem;
+        height: .44rem;
+        border: .01rem solid #fff;
+        border-radius: .06rem;
+        color: #fff;
+        background: transparent;
+        font-size: .24rem;
+        position: absolute;
+        top: 3.06rem;
+        left: 1.52rem;
+    }
+}
+.appoint2{
+    .appoint2-info{
+        height: 6rem;
+        box-sizing: border-box;
+        background: url(../images/appoint2_02.jpg) no-repeat;
+        background-size: 7.5rem 6rem;
+        padding-top: 4.1rem;
+    }
+    .appoint2-detail{
+        text-align: center;
+        padding: .5rem .6rem;
+        h4{
+            width: 3rem;
+            height: .6rem;
+            margin: 0 auto;
+            background: #eef2f8;
+            line-height: .6rem;
+            color: #000;
+            border-radius: .3rem;
+            font-size: .26rem;
+            font-weight: 300;
+        }
+        h6{
+            height: .8rem;
+            line-height: .78rem;
+            color: #2c6ee8;
+            border: .01rem solid #d9d9d9;
+            margin-top: .5rem;
+            margin-bottom: 1.1rem;
+            border-radius: .1rem;
+        }
+        div{
+            p{
+                text-align: left;
+                color: #f98f8c;
+                font-size: .2rem;
+                line-height: .36rem;
+            }
+        }
+        a{
+            display: block;
+            width: 6.3rem;
+            height: .8rem;
+            line-height: .8rem;
+            color: #fff;
+            background: #1f4ba4;
+            border: none;
+            border-radius: .4rem;
+            margin-top: .3rem;
+        }
+    }
+}
+.logistics-info{
+    width: 7rem;
+  box-sizing: border-box;
+    height: 1.6rem;
+    background: rgba(255,255,255,.96);
+    border-radius: .2rem;
+    margin: 0 auto;
+    padding: .2rem .3rem;
+    box-shadow: 0 .2rem .3rem rgba(0,0,0,.05);
+    h5{
+        line-height: .62rem;
+        display: flex;
+        align-items: center;
+        img{
+            width: .3rem;
+            height: .3rem;
+        }
+        label{
+            display: block;
+            width: .96rem;
+            text-indent: .1rem;
+            color: #333;
+        }
+        span{
+            color: #666;
+        }
+    }
+}
+
+#schedule-box{
+    margin: 0 .54rem;
+    border-top: .02rem solid #eef2f8;
+    ul{
+        li{
+            width: 14.28%;
+            float: left;
+            text-align: center;
+            line-height: .6rem;
+        }
+    }
+    ul:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .week-ul{
+        padding-top: .2rem;
+        li{
+            color: #003a81;
+            font-weight: 900;
+        }
+    }
+    .other-month{
+        color: #f2f2f2;
+    }
+    .current-month{
+        color: #62b84f;
+    }
+    .today-style{
+        border-radius: 50%;
+        background: #58d321;
+    }
+    .selected-style {
+        background: #62b84f;
+        color: #fff;
+        display: inline-block;
+        width: .5rem;
+        height: .5rem;
+        border-radius: 50%;
+        text-align: center;
+        line-height: .46rem;
+        box-shadow: 0 .1rem .2rem rgba(0,0,0,.1);
+        border: 1px solid #fff;
+    }
+    .today-flag{
+        background: #00C2B1;
+        color: #fff;
+        display: inline-block;
+        width: .5rem;
+        height: .5rem;
+        border-radius: 50%;
+        text-align: center;
+        line-height: .46rem;
+        box-shadow: 0 .1rem .2rem rgba(0,0,0,.1);
+        border: 1px solid #fff;
+    }
+    .schedule-hd{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 .5rem;
+        position: relative;
+        height: 1rem;
+        color: #1f4ba4;
+        font-size: .3rem;
+        .fa{
+            font-size: .4rem;
+        }
+    }
+    .schedule-hd:after{
+        position: absolute;
+        top: -.3rem;
+        left: -.3rem;
+        content: '';
+        clear: both;
+        display: block;
+        width: 7rem;
+        height: .4rem;
+        background: url(../images/appoint3_03.png) no-repeat;
+        background-size: 7rem .4rem;
+    }
+}
+.appoint3{
+    h6{
+        font-size: .32rem;
+        text-align: center;
+        color: #000;
+        margin: .5rem 0 .3rem 0;
+    }
+    .appoint3-detail{
+        padding: 0 .5rem;
+        h5{
+            height: .32rem;
+            vertical-align: middle;
+            color: #333;
+            margin: .8rem 0 .3rem 0;
+            img{
+                width: .32rem;
+                height: .32rem;
+                vertical-align: middle;
+            }
+        }
+        select{
+            width: 4rem;
+            height: .6rem;
+            border: 1px solid #e9e9e9 !important;
+            padding: 0;
+            padding-left: .2rem;
+            margin: 0;
+            color: #333;
+            -webkit-appearance: menulist;
+        }
+        input{
+            height: .8rem;
+            margin: 0;
+          border: .01rem solid #ccc;
+            background: #fcfcfc;
+            color: #333;
+        }
+        span{
+            color: #62b84f;
+        }
+        .flex{
+            color: #999;
+            margin-top: .3rem;
+        }
+        .fa-trash-o{
+            margin-left: .3rem;
+        }
+    }
+    .sub{
+        display: block;
+        margin: 2.3rem auto .5rem auto;
+        width: 6.3rem;
+        height: .8rem;
+        color: #fff;
+        background: #1f4ba4;
+        border: none;
+        border-radius: .4rem;
+    }
+}
+.appoint3-add-vehicle{
+    width: 7rem;
+    height: 4.5rem;
+    border-radius: .12rem;
+    display: none;
+    h3{
+        text-align: center;
+        line-height: 1.1rem;
+        color: #1f4ba4;
+        font-size: .36rem;
+        font-weight: 300;
+        position: relative;
+        border-bottom: .01rem solid #e6e6e6;
+        span{
+            color: #acacac;
+            position: absolute;
+            right: .3rem;
+            top: 0;
+        }
+    }
+    input{
+        width: 6rem;
+        height: .8rem;
+        margin: .8rem .5rem;
+        background: #fcfcfc;
+    }
+    .flex{
+        border-top: .01rem solid #e6e6e6;
+        button{
+            width: 49%;
+            height: 1rem;
+            border: none;
+            background: transparent;
+        }
+        div{
+            height: .96rem;
+            width: 0;
+            border-left: .01rem solid #e6e6e6;
+        }
+        .add-vehicle-cancel{
+            color: #808080;
+        }
+        .add-vehicle-sub{
+            color: #1f4ba4;
+        }
+    }
+}
+//预约结果
+.appoint-result{
+    text-align: center;
+    padding-top: 1.28rem;
+    padding-bottom: .6rem;
+    img{
+        width: 4.8rem;
+        height: 3.7rem;
+    }
+    h2{
+        margin: .4rem 0 1.2rem 0;
+        font-size: .36rem;
+        font-weight: 300;
+    }
+    div{
+        height: 3.8rem;
+        ul{
+            width: 3.6rem;
+            height: 2rem;
+          box-sizing: border-box;
+            margin: 0 auto;
+            border-bottom: .01rem dashed #dcd9c9;
+            border-top: .01rem dashed #dcd9c9;
+            background: #f9fdf9;
+            padding: .24rem 0 .24rem .7rem;
+            li{
+                text-align: left;
+                line-height: .48rem;
+                font-size: .24rem;
+                color: #333;
+            }
+        }
+    }
+    button{
+        width: 6.3rem;
+        height: .8rem;
+        border: none;
+        color: #fff;
+        font-size: .24rem;
+        border-radius: .4rem;
+    }
+    .sub{
+        background: linear-gradient(to right,#42b63c,#209867);
+    }
+    .re-appoint{
+        background: linear-gradient(to right,#e07b5d,#fb3840);
+    }
+}
+//我的预约列表
+.my-appoint{
+    padding: .3rem;
+    .my-appoint-head{
+        background: #fff;
+        border-radius: .1rem;
+        padding-bottom: .4rem;
+        .search{
+            border-radius: .1rem;
+            margin-bottom: .4rem;
+        }
+        input{
+            margin: 0;
+            width: 5.6rem;
+            border: none;
+            height: .8rem;
+        }
+        img{
+            width: .4rem;
+            height: .4rem;
+            margin: 0 .3rem;
+        }
+        .switch{
+            height: .6rem;
+            margin: 0 .5rem;
+            border: .01rem solid #e6e6e6;
+            border-radius: .3rem;
+            span{
+                display: block;
+                width: 50%;
+                height: .6rem;
+                line-height: .6rem;
+                text-align: center;
+                border-radius: .3rem;
+                font-size: .24rem;
+            }
+            .active{
+                background: #1f4ba4;
+                color: #fff;
+            }
+        }
+    }
+}
+//订单详情
+.appoint-detail{
+    h2{
+        height: 1.4rem;
+        background: url(../images/detail_02.jpg);
+        background-size: cover;
+        line-height: 1.4rem;
+        color: #fff;
+        font-size: .32rem;
+        font-weight: 300;
+        span{
+            margin: 0 .2rem;
+        }
+    }
+    section{
+        background: #fff;
+        hr{
+            border: none;
+            border-bottom: .01rem solid #ccc;
+        }
+        ul{
+            padding: .1rem 0;
+            padding-left: .24rem;
+            li{
+                line-height: .7rem;
+            }
+            .flex{
+                border-bottom: .01rem solid #ccc;
+            }
+            .flex:last-child{
+                border-bottom: none;
+            }
+            div{
+                color: #62b84f;
+                display: flex;
+                align-items: center;
+                span{
+                    margin: 0 .2rem;
+                    font-size: .4rem;
+                    color: #ccc;
+                }
+            }
+        }
+    }
+    h4{
+        color: #e67816;
+        text-align: right;
+        font-size: .24rem;
+        font-weight: 300;
+        padding: .3rem .24rem;
+    }
+    button{
+        width: 6.3rem;
+        height: .8rem;
+        border: none;
+        border-radius: .4rem;
+        background: #1f4ba4;
+        color: #fff;
+        margin: 1.5rem .6rem .4rem .6rem;
+    }
+}
+//支付方式
+.pay-type{
+    .mui-radio{
+        display: flex;
+        align-items: center;
+        background: #fff;
+        margin-top: .3rem;
+        height: 1rem;
+        input{
+            transform: scale(.8,.8);
+            top: .2rem;
+        }
+        label{
+            display: flex;
+            align-items: center;
+            img{
+                width: .32rem;
+                height: .3rem;
+                margin-right: .2rem;
+            }
+        }
+    }
+    button{
+        width: 6.3rem;
+        height: .8rem;
+        border: none;
+        border-radius: .4rem;
+        color: #fff;
+        background: #1f4ba4;
+        margin: 0 .6rem;
+        margin-top: 8rem;
+    }
+}
+//支付完成
+.pay-finish{
+    text-align: center;
+    img{
+        width: 1.8rem;
+        height: 1.8rem;
+        margin: 1.56rem 0 .46rem 0;
+    }
+    h5{
+        font-size: .34rem;
+        color: #666;
+    }
+    p{
+        color: #999;
+        font-size: .24rem;
+        margin: .5rem 0 5.7rem 0;
+    }
+    button{
+        width: 6.3rem;
+        height: .8rem;
+        border: none;
+        border-radius: .4rem;
+        color: #fff;
+        background: #1f4ba4;
+        margin: 0 .6rem;
+    }
+}
+//排队信息
+.line-info{
+    .info{
+        height: 6.2rem;
+        background: url(../images/line_02.png) no-repeat;
+        background-size: 7.5rem 6.2rem;
+        .air{
+            margin-left: .54rem;
+            height: 1.26rem;
+            img{
+                width: .6rem;
+                height: .6rem;
+                border-radius: 50%;
+            }
+            h1{
+                font-size: .6rem;
+                color: #fff;
+                font-weight: 300;
+                margin: 0 .1rem 0 .2rem;
+            }
+            p{
+                font-size: .2rem;
+                color: #fff;
+                line-height: .3rem;
+            }
+        }
+        select{
+            width: 2.4rem;
+            height: .6rem;
+            padding: 0;
+            padding-left: .16rem;
+            margin-right: .24rem;
+            margin-bottom: 0;
+            -webkit-appearance: menulist;
+        }
+        .line-num{
+            margin-left: .5rem;
+            width: 7rem;
+            text-align: center;
+            color: #fff;
+            font-size: .24rem;
+            height: 1.24rem;
+            padding-bottom: .24rem;
+            div{
+                width: 3.5rem;
+            }
+            label{
+                font-size: .4rem;
+            }
+        }
+        ul{
+            margin: .2rem 0;
+            padding: 0 .73rem;
+            height: 3.3rem;
+            overflow: auto;
+            li{
+                line-height: .64rem;
+                padding-left: .5rem;
+                background-image: url(../images/line1.png);
+                background-repeat: no-repeat;
+                background-size: .24rem;
+                background-position: 0 .2rem;
+                span{
+                    margin-right: .76rem;
+                }
+            }
+            .green{
+                background-image: url(../images/line2.png);
+            }
+            .blue{
+                background-image: url(../images/line3.png);
+            }
+        }
+        ul::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    .scroll-box{
+        margin: .3rem 0;
+        overflow: hidden;
+        position: relative;
+        height: 4rem;
+        //background: url(../images/bannerBg.jpg) no-repeat;
+        background-size: 7.5rem 4.43rem;
+        .scroll-long{
+            position: absolute;
+            left: -6rem;
+            width: 60rem;
+            font-size: 0;
+            div{
+                display: inline-block;
+                width: 6.3rem;
+                margin-right: .3rem;
+                border-bottom: 1px dashed #62b84f;
+                border-top: 1px dashed #62b84f;
+                background: #fff;
+                text-align: center;
+                h3{
+                    font-size: .3rem;
+                    font-weight: 300;
+                    margin: .3rem;
+                }
+                p{
+                    line-height: .5rem;
+                    font-size: .22rem;
+                }
+                p:last-child{
+                    margin: .2rem 0;
+                }
+                span{
+                    color: #1f4ba4;
+                }
+            }
+        }
+    }
+    .operation{
+        a{
+            display: block;
+            width: 6.3rem;
+            height: .8rem;
+            line-height: .78rem;
+            text-align: center;
+            border-radius: .4rem;
+            margin: .2rem .6rem;
+            border: .01rem solid #1f4ba4;
+        }
+        a:first-child{
+            color: #fff;
+            background: #1f4ba4;
+        }
+        a:last-child{
+            color: #1f4ba4;
+        }
+    }
+}
+//留言
+.evaluate{
+    h2{
+        height: 1.4rem;
+        background: url(../images/detail_02.jpg);
+        background-size: cover;
+        line-height: 1.4rem;
+        color: #fff;
+        font-size: .32rem;
+        font-weight: 300;
+        span{
+            margin: 0 .2rem;
+        }
+    }
+    ul{
+        padding: .24rem;
+        background: #fff;
+        li{
+            line-height: .76rem;
+            display: flex;
+            align-items: center;
+            span{
+                vertical-align: middle;
+                margin-right: .3rem;
+                color: #333;
+            }
+            div{
+                height: .38rem;
+                background-image: url(../images/evaluate0.png);
+                background-size: 2.76rem .38rem;
+                background-repeat: no-repeat;
+                label{
+                    display: block;
+                    float: left;
+                    width: .38rem;
+                    height: .38rem;
+                    margin-right: .21rem;
+                }
+            }
+        }
+    }
+    textarea{
+        height: 3.2rem;
+        border: none;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 0;
+        padding: .3rem .24rem;
+    }
+    textarea::-webkit-input-placeholder{
+        color: #ccc;
+        line-height: .56rem;
+    }
+    .evaluate-upload{
+        padding: .3rem .24rem;
+        display: flex;
+        justify-content: flex-start;
+        input{
+            display: none;
+        }
+        label{
+            display: block;
+            height: 1.2rem;
+            width: 1.2rem;
+            text-align: center;
+            line-height: 1.16rem;
+            border: .01rem dashed #ccc;
+            color: #ccc;
+            font-size: .8rem;
+            margin-right: .2rem;
+        }
+        .upload-img{
+            img{
+                width: 1.2rem;
+                height: 1.2rem;
+                background: #fff;
+            }
+        }
+    }
+    button{
+        width: 6.3rem;
+        height: .8rem;
+        border: none;
+        border-radius: .4rem;
+        background: #1f4ba4;
+        color: #fff;
+        margin: 1.4rem .6rem .4rem .6rem;
+    }
+    .question-classify{
+        padding: 0 .24rem;
+        height: .8rem;
+        background: #fff;
+        font-size: .24rem;
+        span{
+            display: block;
+            width: 2rem;
+        }
+        select{
+            margin: 0;
+            width: 5.5rem;
+          border: none;
+            height: .8rem;
+            padding: 0;
+            color: #333;
+          -webkit-appearance: none;
+        }
+    }
+}
+
+//出错
+.error{
+    text-align: center;
+    padding: 1.06rem 1rem;
+    h1{
+        font-size: .6rem;
+        color: #767676;
+        padding: .3rem 0;
+        border-bottom: 1px solid #22292c;
+    }
+    img{
+        width: 3.74rem;
+        height: 3.72rem;
+    }
+    .reason{
+        display: flex;
+        justify-content: flex-start;
+        color: #aaa;
+        line-height: .52rem;
+        padding: .3rem 0;
+        span{
+            display: block;
+            width: 1.6rem;
+            text-align: left;
+        }
+        li{
+            text-align: left;
+            list-style: initial;
+            list-style-position: inside;
+        }
+    }
+    .operation{
+        padding: .76rem .5rem;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.8rem;
+            height: .8rem;
+            font-size: .28rem;
+            color: #818181;
+            border: .04rem solid #d2d2d2;
+            line-height: .6rem;
+            border-radius: .14rem;
+            background: #f6f6f6;
+            span{
+                color: #a1a1a1;
+                font-size: .5rem;
+                margin-right: .06rem;
+                line-height: .72rem;
+            }
+        }
+    }
+    .bottom{
+        padding: 0 .5rem;
+        margin: .8rem 0;
+        hr{
+            width: 1.1rem;
+            height: .02rem;
+            border: none;
+            background: #bfbfbf;
+        }
+        span{
+            font-size: .24rem;
+        }
+    }
+}
+//支付记录
+.pay-record{
+    .head{
+        height: .8rem;
+        background: #eef2f8;
+        border-bottom: .01rem solid #ccc;
+        padding-left: .24rem;
+        button{
+            width: .78rem;
+            height: .78rem;
+            line-height: .78rem;
+            text-align: center;
+            padding: 0;
+            border: none;
+            background: transparent;
+            margin: 0;
+            img{
+                width: .36rem;
+                height: .36rem;
+            }
+        }
+    }
+    .record-list{
+        padding-left: .24rem;
+        div{
+            display: flex;
+            justify-content: space-between;
+            padding-top: .3rem;
+        }
+        span{
+            display: block;
+            width: .8rem;
+            height: .8rem;
+            line-height: .8rem;
+            text-align: center;
+            background: #62b84f;
+            font-size: .28rem;
+            color: #fff;
+            border-radius: 50%;
+        }
+        ul{
+            width: 6.24rem;
+            border-bottom: .01rem solid #d6d6d6;
+            padding-bottom: .3rem;
+            li{
+                line-height: .48rem;
+            }
+        }
+    }
+}
