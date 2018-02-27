@@ -20,3 +20,4 @@ table{border-collapse:collapse;border-spacing:0;}
 .fr{float: right;}
 .clear{clear: both;}
 .flex{display: flex;justify-content: space-between;align-items: center;}
+input[type="text"]{text-indent: .2rem;}

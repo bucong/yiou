@@ -3,15 +3,15 @@
     <section class="portrait">
       <div>
         <img src="../assets/images/portrait.jpg" class="head-img"/>
-        <img src="../assets/images/sex1.png" class="sex" alt="" />
+        <img :src="sex" class="sex" alt="" />
         <!--<img src="../assets/images/sex2.png" class="sex" alt="" />-->
       </div>
-      <h3>戴老板</h3>
+      <h3>{{name}}</h3>
       <p>
         <span class="fa fa-mobile"></span>
-        13744789101
+        {{phone}}
       </p>
-      <h5>德威物流车队有限公司</h5>
+      <h5>{{company}}</h5>
     </section>
     <div class="spacing"></div>
     <ul>
@@ -63,7 +63,11 @@ export default {
   name: 'home',
   data () {
     return {
-      msg: ''
+      msg: '',
+      name: '卜聪',
+      sex: 'assets/images/sex1.png',
+      phone: '17621960934',
+      company: '上海硕道信息技术有限公司'
     }
   },
   beforeCreate () {
