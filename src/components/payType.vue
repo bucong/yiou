@@ -16,7 +16,7 @@ export default {
   data () {
     return {
       msg: '',
-      value: '',
+      value: '值A',
       options : [
         {
           label: '微信',

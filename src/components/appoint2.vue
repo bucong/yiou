@@ -3,15 +3,15 @@
     <section class="appoint2-info">
       <div class="logistics-info">
         <h5>
-          <img src="../assets/images/appoint1Icon_03.png"/>
+          <img src="static/images/appoint1Icon_03.png"/>
           <label>单号</label>
           <span>20170925012365489</span>
         </h5>
         <h5>
-          <img src="../assets/images/appoint1Icon_10.png"/>
+          <img src="static/images/appoint1Icon_10.png"/>
           <label>体积</label>
           <span style="margin-right: 1.3rem;">300m<sup>3</sup></span>
-          <img src="../assets/images/appoint1Icon_18.png"/>
+          <img src="static/images/appoint1Icon_18.png"/>
           <label>箱数</label>
           <span>300箱</span>
         </h5>

@@ -1,6 +1,6 @@
 <template>
   <div class="appoint-result">
-    <img src="../assets/images/appointSuccess_03.png"/>
+    <img src="static/images/appointSuccess_03.png"/>
     <h2>恭喜您，预约成功！</h2>
     <div>
       <ul>

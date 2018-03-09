@@ -2,15 +2,15 @@
   <div class="appoint3">
     <div class="logistics-info" style="border: .01rem solid #e6e6e6;margin-top: .3rem;">
       <h5>
-        <img src="../assets/images/appoint1Icon_03.png"/>
+        <img src="static/images/appoint1Icon_03.png"/>
         <label>单号</label>
         <span>20170925012365489</span>
       </h5>
       <h5>
-        <img src="../assets/images/appoint1Icon_10.png"/>
+        <img src="static/images/appoint1Icon_10.png"/>
         <label>体积</label>
         <span style="margin-right: 1.3rem;">300m<sup>3</sup></span>
-        <img src="../assets/images/appoint1Icon_18.png"/>
+        <img src="static/images/appoint1Icon_18.png"/>
         <label>箱数</label>
         <span>300箱</span>
       </h5>
@@ -18,7 +18,7 @@
     <h6>请确定进仓的日期</h6>
     <div id='schedule-box' class="boxshaw"></div>
     <section class="appoint3-detail">
-      <h5><img src="../assets/images/appoint3_04.png"/> 请确定进仓的时间</h5>
+      <h5><img src="static/images/appoint3_04.png"/> 请确定进仓的时间</h5>
       <div class="flex">
         <select name="">
           <option value="">12:00-14:00</option>
@@ -31,7 +31,7 @@
       </div>
     </section>
     <section class="appoint3-detail">
-      <h5><img src="../assets/images/appoint3_07.png"/> 请确认进仓的车牌</h5>
+      <h5><img src="static/images/appoint3_07.png"/> 请确认进仓的车牌</h5>
       <div class="flex">
         <select name="">
           <option value="">沪C-12345</option>
@@ -55,7 +55,7 @@
       </div>
     </section>
     <section class="appoint3-detail">
-      <h5><img src="../assets/images/appoint3_10.png"/> 联系人信息</h5>
+      <h5><img src="static/images/appoint3_10.png"/> 联系人信息</h5>
       <div class="flex">
         <input type="text" name="" id="" value="张三" disabled="" style="width: 2.12rem;" />
         <input type="text" name="" id="" value="" placeholder="电话" disabled="" style="width: 3.92rem;" />

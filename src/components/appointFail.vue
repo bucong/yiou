@@ -1,6 +1,6 @@
 <template>
   <div class="appoint-result">
-    <img src="../assets/images/appointFail_03.png"/>
+    <img src="static/images/appointFail_03.png"/>
     <h2>对不起，预约失败！</h2>
     <div></div>
     <button class="re-appoint">重新预约</button>

@@ -1,6 +1,6 @@
 <template>
   <div class="register">
-    <img src="../assets/images/register_03.png"/>
+    <img src="static/images/register_03.png"/>
     <h1>上海宜欧国际物流有限公司</h1>
     <h5>OCEAN EAST International Logistics Co.,Ltd.</h5>
     <ul class="form">
@@ -28,7 +28,7 @@ export default {
     }
   },
   beforeCreate () {
-    document.querySelector('body').setAttribute('style', 'background: url(../assets/images/registerbg_02.png) no-repeat;background-size: 100% auto;')
+    document.querySelector('body').setAttribute('style', 'background: url(static/images/registerbg_02.png) no-repeat;background-size: 100% auto;')
   },
   methods:{
 

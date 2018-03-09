@@ -3,7 +3,7 @@
     <section class="head flex">
       <span>全部</span>
       <button data-options='{"type":"month"}' class="mui-btn mui-btn-block choose-month">
-        <img src="../assets/images/record_03.png"/>
+        <img src="static/images/record_03.png"/>
       </button>
     </section>
     <section class="record-list">

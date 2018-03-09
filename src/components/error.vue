@@ -1,6 +1,6 @@
 <template>
   <div class="error">
-    <img src="../assets/images/error_03.jpg"/>
+    <img src="static/images/error_03.jpg"/>
     <h1>哎呀，出错了！</h1>
     <div class="reason">
       <span>可能原因：</span>

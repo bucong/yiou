@@ -199,8 +199,8 @@ input::-webkit-input-placeholder {
   height: .3rem;
 }
 .people .portrait .head-img {
-  width: 1.36rem;
-  height: 1.36rem;
+  width: 1.26rem;
+  height: 1.26rem;
   border: .04rem solid #fff;
   border-radius: 50%;
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
@@ -437,9 +437,6 @@ input::-webkit-input-placeholder {
 .appoint-list {
   padding-top: .6rem;
 }
-.appoint-list a {
-  display: block;
-}
 .appoint-list ul {
   background: #fff;
   border-radius: .2rem;
@@ -471,8 +468,11 @@ input::-webkit-input-placeholder {
   right: 0;
   bottom: .38rem;
   display: block;
-  width: 1.88rem;
   height: .5rem;
+  background-size: cover;
+  line-height: .5rem;
+  padding: 0 .4rem 0 .8rem;
+  color: #fff;
 }
 .guide {
   position: fixed;
@@ -903,35 +903,20 @@ input::-webkit-input-placeholder {
   color: #fff;
   margin: 1.5rem .6rem .4rem .6rem;
 }
-.pay-type .mui-radio {
-  display: flex;
-  align-items: center;
-  background: #fff;
-  margin-top: .3rem;
-  height: 1rem;
-}
-.pay-type .mui-radio input {
-  transform: scale(0.8, 0.8);
-  top: .2rem;
-}
-.pay-type .mui-radio label {
-  display: flex;
-  align-items: center;
-}
-.pay-type .mui-radio label img {
-  width: .32rem;
-  height: .3rem;
-  margin-right: .2rem;
+.pay-type .mint-cell {
+  margin-bottom: .2rem;
 }
 .pay-type button {
+  display: block;
   width: 6.3rem;
   height: .8rem;
   border: none;
   border-radius: .4rem;
   color: #fff;
   background: #1f4ba4;
-  margin: 0 .6rem;
-  margin-top: 8rem;
+  margin: 0 auto;
+  margin-top: 6.8rem;
+  font-size: .28rem;
 }
 .pay-finish {
   text-align: center;
@@ -1190,6 +1175,7 @@ input::-webkit-input-placeholder {
   padding: 0;
   color: #333;
   -webkit-appearance: none;
+  background: none;
 }
 .error {
   text-align: center;

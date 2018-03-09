@@ -3,7 +3,7 @@
     <section class="info">
       <div class="flex">
         <div class="air flex">
-          <img src="../assets/images/air_03.png"/>
+          <img src="static/images/air_03.png"/>
           <h1>16℃</h1>
           <div>
             <p>上海</p>

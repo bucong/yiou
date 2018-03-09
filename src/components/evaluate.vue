@@ -42,7 +42,7 @@
         <label for="upload-file" class="upload-label">+</label>
       </form>
       <div class="upload-img">
-        <img src="../assets/images/appoint2_02.jpg"/>
+        <img src="static/images/appoint2_02.jpg"/>
       </div>
     </div>
     <button>确认评价</button>

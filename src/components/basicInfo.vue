@@ -15,14 +15,14 @@
       <form id="idCardForm1" action="upload_image.do" method="post" enctype="multipart/form-data" target="hiddenframe">
         <input type="file" name="imgFile" id="uploadFile1" multiple="multiple" value="" />
         <label for="uploadFile1" class="upload-label">
-          <img src="../assets/images/idCard_03.jpg"/>
+          <img src="static/images/idCard_03.jpg"/>
         </label>
         <h3>身份证个人面</h3>
       </form>
       <form id="idCardForm2" action="upload_image.do" method="post" enctype="multipart/form-data" target="hiddenframe">
         <input type="file" name="imgFile" id="uploadFile2" multiple="multiple" value="" />
         <label for="uploadFile2" class="upload-label">
-          <img src="../assets/images/idCard_03.jpg"/>
+          <img src="static/images/idCard_03.jpg"/>
         </label>
         <h3>身份证国徽面</h3>
       </form>

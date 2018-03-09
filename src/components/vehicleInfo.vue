@@ -16,7 +16,7 @@
       <form class="vehicleForm" action="upload_image.do" method="post" enctype="multipart/form-data" target="hiddenframe">
         <input type="file" name="imgFile" class="vehicleFile" multiple="multiple" value="" />
         <label for="vehicleFile" class="upload-label">
-          <img src="../assets/images/vehicle_03.jpg"/>
+          <img src="static/images/vehicle_03.jpg"/>
         </label>
       </form>
     </section>
@@ -33,7 +33,7 @@
       <form class="vehicleForm" action="upload_image.do" method="post" enctype="multipart/form-data" target="hiddenframe">
         <input type="file" name="imgFile" class="vehicleFile" id="vehicleFile" multiple="multiple" value="" />
         <label for="vehicleFile" class="upload-label">
-          <img src="../assets/images/vehicle_06.jpg"/>
+          <img src="static/images/vehicle_06.jpg"/>
         </label>
       </form>
     </section>

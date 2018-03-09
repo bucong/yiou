@@ -1,6 +1,6 @@
 <template>
   <div class="reg-success">
-    <img src="../assets/images/regSuccess_03.png"/>
+    <img src="static/images/regSuccess_03.png"/>
     <h1>恭喜</h1>
     <p>您已完成绑定，现在可以预约进仓了，如需修改资料 <br /> 请进入个人中心修改</p>
     <button class="sub">预约进仓</button>
