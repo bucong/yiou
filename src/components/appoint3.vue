@@ -4,15 +4,15 @@
       <h5>
         <img src="static/images/appoint1Icon_03.png"/>
         <label>单号</label>
-        <span>20170925012365489</span>
+        <span>{{orderNum}}</span>
       </h5>
       <h5>
         <img src="static/images/appoint1Icon_10.png"/>
         <label>体积</label>
-        <span style="margin-right: 1.3rem;">300m<sup>3</sup></span>
+        <span style="margin-right: 1.3rem;">{{volume}}m<sup>3</sup></span>
         <img src="static/images/appoint1Icon_18.png"/>
         <label>箱数</label>
-        <span>300箱</span>
+        <span>{{amount}}箱</span>
       </h5>
     </div>
     <h6>请确定进仓的日期</h6>
@@ -57,8 +57,8 @@
     <section class="appoint3-detail">
       <h5><img src="static/images/appoint3_10.png"/> 联系人信息</h5>
       <div class="flex">
-        <input type="text" name="" id="" value="张三" disabled="" style="width: 2.12rem;" />
-        <input type="text" name="" id="" value="" placeholder="电话" disabled="" style="width: 3.92rem;" />
+        <input type="text" name="" v-model="userName" disabled="" style="width: 2.12rem;" />
+        <input type="text" name="" v-model="mobile" placeholder="电话" disabled="" style="width: 3.92rem;" />
       </div>
     </section>
     <button class="sub">确&nbsp;&nbsp;定</button>
@@ -81,7 +81,11 @@ export default {
   name: 'love',
   data () {
     return {
-      selected: '1'
+      orderNum: 'BK743787382378',
+      volume: 30,
+      amount: 6,
+      userName: '卜聪',
+      mobile: '17621960934'
     }
   },
   beforeCreate () {
