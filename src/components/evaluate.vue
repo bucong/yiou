@@ -5,32 +5,32 @@
     <ul>
       <li>
         <span>卸货速度</span>
-        <div>
-          <label></label>
-          <label></label>
-          <label></label>
-          <label></label>
-          <label></label>
+        <div :style="'background-image:url(static/images/evaluate'+speed+'.png)'">
+          <label @click="star('speed',1)"></label>
+          <label @click="star('speed',2)"></label>
+          <label @click="star('speed',3)"></label>
+          <label @click="star('speed',4)"></label>
+          <label @click="star('speed',5)"></label>
         </div>
       </li>
       <li>
         <span>服务质量</span>
-        <div>
-          <label></label>
-          <label></label>
-          <label></label>
-          <label></label>
-          <label></label>
+        <div :style="'background-image:url(static/images/evaluate'+quality+'.png)'">
+          <label @click="star('quality',1)"></label>
+          <label @click="star('quality',2)"></label>
+          <label @click="star('quality',3)"></label>
+          <label @click="star('quality',4)"></label>
+          <label @click="star('quality',5)"></label>
         </div>
       </li>
       <li>
         <span>服务态度</span>
-        <div>
-          <label></label>
-          <label></label>
-          <label></label>
-          <label></label>
-          <label></label>
+        <div :style="'background-image:url(static/images/evaluate'+attitude+'.png)'">
+          <label @click="star('attitude',1)"></label>
+          <label @click="star('attitude',2)"></label>
+          <label @click="star('attitude',3)"></label>
+          <label @click="star('attitude',4)"></label>
+          <label @click="star('attitude',5)"></label>
         </div>
       </li>
     </ul>
@@ -54,14 +54,24 @@ export default {
   name: 'love',
   data () {
     return {
-      selected: '1'
+      speed: 0,
+      quality: 0,
+      attitude:0
     }
   },
   beforeCreate () {
     document.querySelector('body').setAttribute('style', 'background:#eef2f8')
   },
   methods:{
-
+    star:function(category,score){
+      if(category=='speed'){
+        this.speed=score;
+      }else if(category=='quality'){
+        this.quality=score;
+      }else{
+        this.attitude=score;
+      }
+    }
   },
   mounted:function(){
   	//这里使用jQuery
