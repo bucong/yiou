@@ -62,7 +62,7 @@ export default {
         {url:'',order: '20170925123465875',company: '戴森电子信息有限公司',warehouse:'上海外高桥保税区',volume:30,time: '2018-02-24',status:'取消预约',code:2},
         {url:'lineInfo',order: '20170925123465875',company: '戴森电子信息有限公司',warehouse:'上海外高桥保税区',volume:30,time: '2018-02-24',status:'排队中',code:3},
         {url:'detail',order: '20170925123465875',company: '戴森电子信息有限公司',warehouse:'上海外高桥保税区',volume:30,time: '2018-02-24',status:'待付款',code:4},
-        {url:'evaluate',order: '20170925123465875',company: '戴森电子信息有限公司',warehouse:'上海外高桥保税区',volume:30,time: '2018-02-24',status:'待评价',code:2}
+        {url:'evaluate',order: '20170925123465875',company: '戴森电子信息有限公司',warehouse:'上海外高桥保税区',volume:30,time: '2018-02-24',status:'待评价',code:5}
       ]
     }
   },
