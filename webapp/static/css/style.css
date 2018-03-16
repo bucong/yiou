@@ -1087,7 +1087,6 @@ input::-webkit-input-placeholder {
 }
 .evaluate ul li div {
   height: .38rem;
-  background-image: url(../images/evaluate0.png);
   background-size: 2.76rem .38rem;
   background-repeat: no-repeat;
 }
