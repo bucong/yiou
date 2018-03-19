@@ -7,24 +7,14 @@
       </button>
     </section>
     <section class="record-list">
-      <div>
-        <span>10月</span>
+      <div v-for="item in list">
+        <span>{{item.month}}月</span>
         <ul>
-          <li>预约单号：20170965242365</li>
-          <li>入库时间：2017-10-10 , 8:30-9:30</li>
-          <li>货物体积：200m<sup>3</sup></li>
-          <li>卸货仓库：外高桥保税区 cf2</li>
-          <li>金额：2688元</li>
-        </ul>
-      </div>
-      <div>
-        <span>9月</span>
-        <ul>
-          <li>预约单号：20170965242365</li>
-          <li>入库时间：2017-10-10 , 8:30-9:30</li>
-          <li>货物体积：200m<sup>3</sup></li>
-          <li>卸货仓库：外高桥保税区 cf2</li>
-          <li>金额：2688元</li>
+          <li>预约单号：{{item.orderNum}}</li>
+          <li>入库时间：{{item.time}}</li>
+          <li>货物体积：{{item.volume}}m<sup>3</sup></li>
+          <li>卸货仓库：{{item.wareHouse}}</li>
+          <li>金额：{{item.money}}元</li>
         </ul>
       </div>
     </section>
@@ -36,7 +26,23 @@ export default {
   name: 'love',
   data () {
     return {
-      selected: '1'
+      list: [
+        {
+          month: 9,
+          orderNum: 'BK20170925242365',
+          time: '2017-10-10 , 8:30-9:30',
+          volume: 30,
+          wareHouse: '外高桥保税区 cf2',
+          money: '2820'
+        },{
+          month: 11,
+          orderNum: 'BK20171115242365',
+          time: '2017-10-10 , 8:30-9:30',
+          volume: 30,
+          wareHouse: '外高桥保税区 cf2',
+          money: '2820'
+        }
+      ]
     }
   },
   beforeCreate () {
