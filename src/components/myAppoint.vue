@@ -2,7 +2,7 @@
   <div class="my-appoint">
     <section class="my-appoint-head shadow">
       <div class="flex shadow search">
-        <input type="text" name="" id="" value="" placeholder="输入关键词"/>
+        <input type="text" name="" id="" value=""  placeholder="输入关键词"/>
         <img src="static/images/appoint_05.png"/>
       </div>
       <div class="flex switch">

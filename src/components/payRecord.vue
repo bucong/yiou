@@ -2,7 +2,7 @@
   <div class="pay-record">
     <section class="head flex">
       <span>全部</span>
-      <button data-options='{"type":"month"}' class="mui-btn mui-btn-block choose-month">
+      <button @click="openPicker" class="choose-month">
         <img src="static/images/record_03.png"/>
       </button>
     </section>
@@ -22,6 +22,7 @@
 </template>
 
 <script>
+  import { DatetimePicker } from 'mint-ui';
 export default {
   name: 'love',
   data () {
