@@ -61,7 +61,7 @@
         <input type="text" name="" v-model="mobile" placeholder="电话" disabled="" style="width: 3.92rem;" />
       </div>
     </section>
-    <button class="sub">确&nbsp;&nbsp;定</button>
+    <button class="sub" @click="subOrder">确&nbsp;&nbsp;定</button>
     <div class="meng"></div>
     <div class="meng-box appoint3-add-vehicle">
       <h3>添加车牌<span>&times;</span></h3>
@@ -92,7 +92,9 @@ export default {
     document.querySelector('body').setAttribute('style', 'background:#fff')
   },
   methods:{
-
+    subOrder: function(){
+      this.$router.push({path:'/appointSuccess'})
+    }
   },
   mounted:function(){
   	//这里使用jQuery

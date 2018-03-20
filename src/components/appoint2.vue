@@ -25,7 +25,7 @@
         <p>*如与进仓通知书上的地址不符，请及时联系工厂作进一步确认</p>
         <p>*如地址相符请直接点击“下一步”</p>
       </div>
-      <a href="appoint3">下一步：选择预约时段</a>
+      <router-link to="/appoint3">下一步：选择预约时段</router-link>
     </section>
   </div>
 </template>

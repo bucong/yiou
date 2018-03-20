@@ -9,7 +9,7 @@
         <li>时间： <span>12:00-14:00</span></li>
       </ul>
     </div>
-    <button class="sub">确&nbsp;&nbsp;定</button>
+    <button class="sub" @click="sub">确&nbsp;&nbsp;定</button>
   </div>
 </template>
 
@@ -26,7 +26,9 @@ export default {
     document.querySelector('body').setAttribute('style', 'background:#fff')
   },
   methods:{
-
+    sub: function(){
+      this.$router.push({path:'/myAppoint'})
+    }
   },
   mounted:function(){
   	//这里使用jQuery

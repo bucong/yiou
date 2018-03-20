@@ -39,8 +39,8 @@
       </mt-swipe>
     </div>
     <section class="operation">
-      <a href="appointInfo">预约须知</a>
-      <a href="changeInfo">换单须知</a>
+      <router-link to="/appointInfo">预约须知</router-link>
+      <router-link to="/changeInfo">换单须知</router-link>
     </section>
   </div>
 </template>
