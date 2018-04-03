@@ -18,6 +18,14 @@
         </ul>
       </div>
     </section>
+    <template>
+      <mt-datetime-picker
+        ref="picker"
+        type="date"
+        v-model="pickerValue"
+        @confirm="handleConfirm">
+      </mt-datetime-picker>
+    </template>
   </div>
 </template>
 
@@ -50,7 +58,12 @@ export default {
     document.querySelector('body').setAttribute('style', 'background:#fff')
   },
   methods:{
-
+    openPicker() {
+      this.$refs.picker.open();
+    },
+    handleConfirm(e){
+      console.log(e)
+    }
   },
   mounted:function(){
   	//这里使用jQuery

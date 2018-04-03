@@ -8,7 +8,7 @@
       <h3>{{name}}</h3>
       <p>
         <span class="fa fa-mobile"></span>
-        {{phone}}
+        {{$store.state.phone}}
       </p>
       <h5>{{company}}</h5>
     </section>
@@ -57,7 +57,7 @@
 </template>
 
 <script>
-
+import store from '@/vuex/store';
 export default {
   name: 'home',
   data () {
@@ -69,6 +69,7 @@ export default {
       company: '上海硕道信息技术有限公司'
     }
   },
+  store,
   beforeCreate () {
     document.querySelector('body').setAttribute('style', 'background:#eef2f8')
   },
