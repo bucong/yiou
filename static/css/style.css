@@ -185,6 +185,7 @@ input::-webkit-input-placeholder {
   background-size: 7.5rem auto;
   text-align: center;
   padding-top: .34rem;
+  background-position: center;
 }
 .people .portrait div {
   position: relative;
