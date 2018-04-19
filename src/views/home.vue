@@ -3,14 +3,14 @@
     <section class="portrait">
       <div>
         <img src="static/images/portrait.jpg" class="head-img"/>
-        <img :src="'static/images/sex'+sex+'.png'" class="sex" alt="" />
+        <img :src="'static/images/sex'+user.sex+'.png'" class="sex" alt="" />
       </div>
-      <h3>{{name}}</h3>
+      <h3>{{user.userName}}</h3>
       <p>
         <span class="fa fa-mobile"></span>
-        {{$store.state.phone}}
+        {{user.mobile}}
       </p>
-      <h5>{{company}}</h5>
+      <h5>{{user.company}}</h5>
     </section>
     <div class="spacing"></div>
     <ul>
@@ -57,27 +57,31 @@
 </template>
 
 <script>
-import store from '@/vuex/store';
+import {fetch} from '../utils/fetch';
 export default {
   name: 'home',
   data () {
     return {
-      msg: '',
-      name: '卜聪',
-      sex: 1,
-      phone: '17621960934',
-      company: '上海硕道信息技术有限公司'
+      user: {
+        userName: '卜聪',
+        sex: 1,
+        mobile: '17621960934',
+        company: '上海硕道信息技术有限公司'
+      }
     }
   },
-  store,
   beforeCreate () {
-    document.querySelector('body').setAttribute('style', 'background:#eef2f8')
+    document.querySelector('body').setAttribute('style', 'background:#eef2f8');
+    fetch('get','user/userInfo','',(res) => {
+      console.log(res)
+      this.user = res.result[0];
+    })
   },
   methods:{
 
   },
   mounted:function(){
-  	//这里使用jQuery
+
   }
 
 }

@@ -1,27 +1,47 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/home'
-import MyAppoint from '@/components/myAppoint'
-import Appoint1 from '@/components/appoint1'
-import Appoint2 from '@/components/appoint2'
-import Appoint3 from '@/components/appoint3'
-import Detail from '@/components/detail'
-import AppointFail from '@/components/appointFail'
-import AppointSuccess from '@/components/appointSuccess'
-import VehicleInfo from '@/components/vehicleInfo'
-import ChangeInfo from '@/components/changeInfo'
-import LineInfo from '@/components/lineInfo'
-import AppointInfo from '@/components/appointInfo'
-import BasicInfo from '@/components/basicInfo'
-import Message from '@/components/message'
-import PayRecord from '@/components/payRecord'
-import PayFinish from '@/components/payFinish'
-import PayType from '@/components/payType'
-import Evaluate from '@/components/evaluate'
-import Register from '@/components/register'
-import RegSuccess from '@/components/regSuccess'
-import Error from '@/components/error'
-
+//import Home from '@/views/home'
+//import MyAppoint from '@/views/myAppoint'
+//import Appoint1 from '@/views/appoint1'
+//import Appoint2 from '@/views/appoint2'
+//import Appoint3 from '@/views/appoint3'
+// import Detail from '@/views/detail'
+// import AppointFail from '@/views/appointFail'
+// import AppointSuccess from '@/views/appointSuccess'
+// import VehicleInfo from '@/views/vehicleInfo'
+// import ChangeInfo from '@/views/changeInfo'
+// import LineInfo from '@/views/lineInfo'
+// import AppointInfo from '@/views/appointInfo'
+// import BasicInfo from '@/views/basicInfo'
+// import Message from '@/views/message'
+// import PayRecord from '@/views/payRecord'
+// import PayFinish from '@/views/payFinish'
+// import PayType from '@/views/payType'
+// import Evaluate from '@/views/evaluate'
+// import Register from '@/views/register'
+// import RegSuccess from '@/views/regSuccess'
+// import Error from '@/views/error'
+const Home = () => import('@/views/home')
+const MyAppoint = () => import('@/views/myAppoint')
+const Appoint1 = () => import('@/views/appoint1')
+const Appoint2 = () => import('@/views/appoint2')
+const Appoint3 = () => import('@/views/appoint3')
+const Detail = () => import('@/views/detail')
+const AppointFail = () => import('@/views/appointFail')
+const AppointSuccess = () => import('@/views/appointSuccess')
+const VehicleInfo = () => import('@/views/vehicleInfo')
+const ChangeInfo = () => import('@/views/changeInfo')
+const LineInfo = () => import('@/views/lineInfo')
+const AppointInfo = () => import('@/views/appointInfo')
+const BasicInfo = () => import('@/views/basicInfo')
+const Message = () => import('@/views/message')
+const PayRecord = () => import('@/views/payRecord')
+const PayFinish = () => import('@/views/payFinish')
+const PayType = () => import('@/views/payType')
+const Evaluate = () => import('@/views/evaluate')
+const Register = () => import('@/views/register')
+const RegSuccess = () => import('@/views/regSuccess')
+const Error = () => import('@/views/error')
 Vue.use(Router)
 
 export default new Router({
